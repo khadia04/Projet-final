@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+header{
+    width: 100%;
+    max-width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+.navbar {
+    color: white;
+}
+body header div nav li {
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+a {
+    color: yellowgreen;
+    font-weight: bold;
+
+}
+h1 {
+    font-weight: bold;
+}
+
+
+/* le style du navbar*/
+
+
+section div.div-background {
+    background-image: url("basin/photo-principale.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+
+main{
+    color: black;
+    background-color: white;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.lorem {
+    text-align: center;
+}
+.btn {
+    color: white;
+    border: none;
+    border-radius: 25rem;
+    background-color: rgb(122, 175, 16);
+    display: inline-block;
+    padding: 10px;
+    margin: 05px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(122, 175, 16);
+    color: #fff;
+}
+.btn:active{
+    background-color: lightgreen;
+}
+.service {
+    padding: 50px;
+}
+h4 {
+    font-weight: bold;
+    color: rgb(122, 175, 16);
+}
+.p {
+    font-size: small;
+}
+
+
+/*le style du body*/
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.ul {
+   padding: 10px;
+   margin: 10px; 
+}
+.li {
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.img{
+    border: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+h6 {
+    color: yellowgreen;
+}
+.site {
+    background-color: rgb(21, 24, 24);
+    color: white;
+    padding: 10px;
+}
+.white {
+    color: white;
+    text-decoration: underline;
+}
