@@ -2,11 +2,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
 }
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header{
     width: 100%;
     max-width: 100%;
     background-color: black;
-    position: fixed;
+    position: sticky;
+    top: 0;
 }
 
 .navbar {
@@ -30,12 +35,14 @@ h1 {
 
 /* le style du navbar*/
 
-
+.carousel-dark{
+    width:100%;
+}
 section div.div-background {
     background-image: url("basin/photo-principale.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-repeat: repeat-x;
     background-attachment: fixed;
+    background-position: center;
     width: 100%;
     height: 700px;
 }
@@ -115,3 +122,195 @@ h6 {
     color: white;
     text-decoration: underline;
 }
+/* la partie shop cart*/
+
+#panier{
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+table{
+    width: 80%;
+     padding: 50px;
+     border: 1px solid #868686;
+     border-radius: 15px;
+     position: absolute;
+     top: 50px;
+     left: 50px;
+     background-color: #ffffff;
+     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+ }
+ caption{
+     text-align: left;
+     font-size: 2vw;
+     font-weight: 600;
+     margin-bottom: 10px;
+ }
+  
+  
+  .header .firstline th{
+     color: #757575;
+     font-size: 1em;
+     text-align: left;
+     font-family: Arial, Helvetica, sans-serif;
+    
+     
+  }
+  
+  .body .secondline .cln1{
+     display: flex;
+     position: relative;
+  }
+  .body  .secondline td{
+     margin-top: 20px;
+    
+  }
+  .body  .secondline td div{
+     margin-right: 50px;
+  }
+  .body  .secondline td div.next{
+     padding-left: 10px;
+    
+     position: relative;
+     top: 50px;
+     margin-right: 60px;
+     
+  }
+  .body  .secondline td div.next p{
+     font-size: 0.8em;
+     color: #3b3a3a;
+    
+  }
+ 
+  .body  .secondline td div button.sup{
+     border: none;
+     padding: 10px;
+     font-size: 1em;
+     background-color: #4b9bf7;
+     border: transparent;
+     border-radius: 10px ;
+     font-weight: 600;
+     opacity: 0.50;
+     color: #ffffff;
+     background-color: rgb(122, 175, 16)
+      
+  }
+  .body  .secondline td div button.sup:hover{
+     opacity: 1;
+     cursor: pointer;
+  }
+  .body  .secondline td div button.sup:active{
+     color: rgb(122, 175, 16);
+  }
+  
+  .body  .secondline td button.quantitémoin{
+     border: transparent;
+     border: 1px solid #cccccc;
+     border-radius: 50%;
+     background-color:#cccccc;
+     font-size: 20px;
+     width: 30px;
+     height: 30px;
+     color: white;
+     outline: none;
+    
+     
+     
+  }
+  .body  .secondline td.cln2 .button{
+         position: relative;
+         left: -10px;
+  }
+  .body  .secondline .btns{
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: -20px;
+ 
+  }
+  .body  .secondline .fa-regular{
+    
+    font-size: 25px;
+  }
+  .body  .secondline .fa-regular:hover{
+    cursor: pointer;
+    
+ 
+  }
+  .body  .secondline td button.quantitémoin:hover{
+     background-color: #0e77f0;
+     border: none;
+     cursor: pointer;
+  }
+  .body  .secondline td button.quantitémoin:active{
+     background-color: #4a9bf8;
+     border: none;
+  }
+  .body  .secondline td button.quantitéplus{
+     border: transparent;
+     border: 1px solid #cccccc;
+     border-radius: 50%;
+     background-color:#cccccc;
+     font-size: 20px;
+     width: 30px;
+     height: 30px;
+     color: white;
+    
+  }
+  
+  .body  .secondline td button.quantitéplus:hover{
+     background-color: #0e77f0;
+     border: none;
+     cursor: pointer;
+  }
+  .body  .secondline td button.quantitéplus:active{
+     background-color: #4a9bf8;
+     border: none;
+  }
+  .body  .secondline td input[type="text"]{
+     width: 50px;
+     height: 40px;
+     text-align: center;
+  }
+  .body  .secondline td div p.prix,  p.prix2,p.prix3{
+     border: 1px solid #cccccc;
+     border-radius: 5px;
+     padding: 10px;
+     background-color: #fcfcfc;
+     font-weight: 500;
+     margin-left: 30px;
+     position: relative;
+     left: -20px;
+     
+    
+  }
+  .body  .secondline td div p.prix2,.prix3{
+     color: #0e77f0;
+     
+     
+  }
+ 
+  tfoot.footering .thirdline td label[for='ipt'],#ipt{
+    margin-top: 40px;
+    position: relative;
+    left: 300px;
+    
+  }
+  tfoot.footering .thirdline td #ipt{
+    padding: 10px;
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+  }
+  tfoot.footering .thirdline label{
+     color: #4b4949;
+     font-size: 1.5em;
+     text-align: left;
+     font-family: Arial, Helvetica, sans-serif;
+    
+ 
+  }
+  
+  
+  
